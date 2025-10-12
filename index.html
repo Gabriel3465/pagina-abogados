@@ -8,7 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <title>
-    Abogados la paz
+        Abogados la paz
     </title>
 
     <meta name="author" content="Gabriel Lauro Hernandez">
@@ -16,30 +16,34 @@
     <meta name="description" content="Esta pagina muestra la infromacion de todo un bufete
     de Abogados">
 
+    <link rel="stylesheet" href="assets/styles/main.css">
+
+
     <!-- pendiente lo de las palabras claves -->
 
 </head>
 
 <body>
-    
-    <h1>
-        Bufete Jurídico Elite
-    </h1>
-
-    <!-- Inicia el menu -->
-     <ul>
-        <li>
-            <a href="views/services/services.html"> Servicios</a>
-        </li>
-        <li>
-            <a href="views/about.html">Nosotros</a>
-        </li>
-        <li>
-            <a href="views/contact.html">Contacto</a>
-        </li>
-     </ul>
-    <!-- Acaba el menu -->
-
+    <header>
+        <div class="header-container">
+            <h1> Bufete Jurídico Elite </h1>
+            <div class="menus">
+                <!-- Inicia el menu -->
+                <ul>
+                    <li>
+                        <a href="views/services/services.html"> Servicios</a>
+                    </li>
+                    <li>
+                        <a href="views/about.html">Nosotros</a>
+                    </li>
+                    <li>
+                        <a href="views/contact.html">Contacto</a>
+                    </li>
+                </ul>
+                <!-- Acaba el menu -->
+            </div>
+        </div>
+    </header>
 
     <h2>
         Bienvenido a Bufete Jurídico Elite
@@ -49,15 +53,14 @@
         Se ofrecen acesorias legal profecional y personalizada en diversas areas
     </p>
 
-    <img  src="assets/img/imagen_bufete.jpg" 
-    alt="Imagen de un bufete" title="Imagen de bufete">
+    <img src="assets/img/imagen_bufete.jpg" alt="Imagen de un bufete" title="Imagen de bufete">
 
     <h3>
         Servicios destacados
     </h3>
 
     <!--Inicio de menu de servicios -->
-     <ul>
+    <ul>
         <li>
             <a href="views/services/derecho_civil.html">Asesoría en Derecho civil</a>
         </li>
@@ -67,27 +70,19 @@
         <li>
             <a href="views/services/derecho_laboral.html">Defensa en Derecho laboral</a>
         </li>
-     </ul>
+    </ul>
 
     <h3>
         Horario de Atencíon
     </h3>
     <!--Final de menu de servicios -->
-    
+
     <!--Inicia tabla de horaio-->
     <table>
         <thead>
             <tr>
-                <th>
-                    <h3>
-                        Dia
-                    </h3>
-                </th>
-                <th>
-                    <h3>
-                        Horario
-                    </h3>
-                </th>
+                <th class="title_table" > Dia </th>
+                <th class="title_table" > Horario </th>
             </tr>
         </thead>
 
@@ -142,7 +137,7 @@
 </body>
 
 <footer>
-     <p>
+    <p>
         &#169; 2025 Bufete Jurídico Elite
     </p>
 </footer>

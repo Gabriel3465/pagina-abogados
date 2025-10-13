@@ -7,15 +7,17 @@
 	<title>
 		Contacto
 	</title>
+
+    <link rel="stylesheet" href="../assets/styles/main.css">
+    
 </head>
 
 <body>
-    
-    <h1>
-        Contacto
-    </h1>
-
-    <!-- Inicia el menu -->
+    <header>
+        <div class="header-container">
+            <h1>Contacto</h1>
+            <div class="menus">
+                <!-- Inicia el menu -->
      <ul>
         <li>
             <a href="../index.html">Inicio</a>
@@ -31,13 +33,16 @@
         </li>
      </ul>
     <!-- Acaba el menu -->
+            </div>
+        </div>
+    </header>
 
     <h2>
         Contactanos
     </h2>
 
     <!--Inicio de formulario-->
-    <form action="contact.html" target="_self" method="get" autocomplete="off">
+    <form class="contact-form" action="contact.html" target="_self" method="get" autocomplete="off">
         <label>
             Nombre:
         </label>
@@ -73,9 +78,11 @@
         Ubicaciòn de la oficina
     </h2>
 
-    <!--Inicio de mapa-->
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29129.449147406267!2d-110.35545294552371!3d24.13027584476646!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x86afd331e6623bc1%3A0x5c928567b5a45159!2sAbogado%20Antonio%20Cota%20Vergara.%20Bufete%20Jur%C3%ADdico!5e0!3m2!1ses-419!2smx!4v1758070580433!5m2!1ses-419!2smx" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-    <!--Final de mapa-->
+    <div class="map-container">
+        <!--Inicio de mapa-->
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29129.449147406267!2d-110.35545294552371!3d24.13027584476646!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x86afd331e6623bc1%3A0x5c928567b5a45159!2sAbogado%20Antonio%20Cota%20Vergara.%20Bufete%20Jur%C3%ADdico!5e0!3m2!1ses-419!2smx!4v1758070580433!5m2!1ses-419!2smx" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <!--Final de mapa-->
+    </div>
 
     <h2>
         Contactanos
@@ -103,19 +110,42 @@
         Horarios
     </h3>
 
-    <!--Inicio de lista de horario-->
-    <ul>
-        <li>
-            Lunes a Viernes: 09:00 a 18:00
-        </li>
-        <li>
-            Sabados: 10:00 a 14:00
-        </li>
-        <li>
-            Domingos: Cerrado
-        </li>
-    </ul>
-    <!--Final de lista de horario-->
+   <!--Inicia tabla de horaio-->
+    <table>
+        <thead>
+            <tr>
+                <th class="title_table" > Dia </th>
+                <th class="title_table" > Horario </th>
+            </tr>
+        </thead>
+
+        <tr>
+            <td>
+                Lunes a Viernes
+            </td>
+            <td>
+                09:00 - 18:00
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Sabados
+            </td>
+            <td>
+                10:00 - 14:00
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Domingo
+            </td>
+            <td>
+                Cerrado
+            </td>
+        </tr>
+    </table>
+    <!--acaba tabla de horaio-->
+
 
     <br>
 </body>

@@ -36,15 +36,24 @@ header {
 }
 
 /* resto  del cuerpo */
-main {
-    margin: 40px; 
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
 }
 
 body {
     background-color: #f5f7fa;
     color: #333;
-    margin: 0;
-    padding: 0px;
+    display: flex;               
+    flex-direction: column;       
+    min-height: 100vh; 
+}
+
+main {
+    margin: 40px; 
+    flex: 1;
 }
 
 h2,

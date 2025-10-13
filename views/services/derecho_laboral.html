@@ -8,75 +8,79 @@
     <title>
         Derecho civil
     </title>
+    
+    <link rel="stylesheet" href="../../assets/styles/main.css">
+
 </head>
 
 <body>
-    
-    <h1>
-        Detalle  del servicio
-    </h1>
 
-    <!-- Inicia el menu -->
-     <ul>
-        <li>
-            <a href="../../index.html">Inicio</a>
-        </li>
-        <li>
-            <a href="services.html"> Servicios</a>
-        </li>
-        <li>
-            <a href="../about.html">Nosotros</a>
-        </li>
-        <li>
-            <a href="../contact.html">Contacto</a>
-        </li>
-     </ul>
-    <!-- Acaba el menu -->
+    <header>
+        <div class="header-container">
+            <h1>Detalle del servicio</h1>
+            <div class="menus">
+                <!-- Inicia el menu -->
+                <ul>
+                    <li>
+                        <a href="../../index.html">Inicio</a>
+                    </li>
+                    <li>
+                        <a href="services.html"> Servicios</a>
+                    </li>
+                    <li>
+                        <a href="../about.html">Nosotros</a>
+                    </li>
+                    <li>
+                        <a href="../contact.html">Contacto</a>
+                    </li>
+                </ul>
+                <!-- Acaba el menu -->
+            </div>
+        </div>
+    </header>
 
     <h2>
         Derecho laboral
     </h2>
 
     <p>
-        Brindamos asesoría y representación en temas laborales, 
-        tanto para trabajadores como para empleadores, con el objetivo 
-        de garantizar el cumplimiento de los derechos y obligaciones 
+        Brindamos asesoría y representación en temas laborales,
+        tanto para trabajadores como para empleadores, con el objetivo
+        de garantizar el cumplimiento de los derechos y obligaciones
         dentro del ámbito laboral.
     </p>
 
     <p>
-        Ofrecemos
+        Ofrecemos:
     </p>
 
     <!--Inicio de lista de servicios-->
     <ul>
         <li>
-            Defensa 
+            Defensa
         </li>
         <li>
-            resolucion de conflictos entre particulares
+            Resolucion de conflictos entre particulares
         </li>
         <li>
             Representacion en jucios
         </li>
     </ul>
     <!--final de lista de servicios-->
-
-    <a href="services.html">Volver a servicios</a>
+    <br>
 
     <h3>
         Solicita mas informacion
     </h3>
 
     <!--Inicio de formulario-->
-    <form action="derecho_laboral.html" target="_self" method="get" autocomplete="off">
+    <form class="contact-form" action="derecho_laboral.html" target="_self" method="get" autocomplete="off">
         <label>
             Nombre:
         </label>
         <br>
-        <input type="text" name="Nombre" id="name" minlength="10" maxlength="40"
-        required>
-        
+        <input type="text" name="Nombre" id="name" minlength="10" maxlength="40" required>
+
         <br><br>
 
         <label>
@@ -92,7 +96,7 @@
         </label>
         <br>
         <textarea name="comentarios" rows="4" cols="20" placeholder="Ingrese su consulta"></textarea>
-        
+
         <br><br>
 
         <button type="submit">
